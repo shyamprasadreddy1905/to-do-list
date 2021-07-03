@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+#inputTask, #addBtn, #clearBtn, #doneBtn{
+	padding: 10px;
+	font-family: 'Nunito', sans-serif;
+}
+
+ul li{
+  background: seagreen;
+  padding: 12px;
+  list-style-type: none;
+  font-size: 18px;
+  margin: 30px;
+  color: white;
+	border-radius: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.remove{
+  float: right;
+  background-color: chocolate;
+  color: white;
+  border: none;
+	margin-top: 5px;
+}
+
+.done{
+	float: right;
+	background-color: yellowgreen;
+  border: none;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#addBtn{
+  background-color: yellowgreen;
+  border: none;
+}
+
+#clearBtn{
+  background-color: yellowgreen;
+  border: none;
+}
